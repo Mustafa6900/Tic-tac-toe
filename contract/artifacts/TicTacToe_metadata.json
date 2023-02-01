@@ -1,0 +1,120 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "getBoard",
+				"outputs": [
+					{
+						"internalType": "uint8[3][3]",
+						"name": "",
+						"type": "uint8[3][3]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint8",
+						"name": "x",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint8",
+						"name": "y",
+						"type": "uint8"
+					}
+				],
+				"name": "move",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint8",
+						"name": "x",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint8",
+						"name": "y",
+						"type": "uint8"
+					}
+				],
+				"name": "play",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "startGame",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "winnerPlayer",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contract/tic_tac_toe.sol": "TicTacToe"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contract/tic_tac_toe.sol": {
+			"keccak256": "0x445cf0eeff62b46f62d515962c42d795b6cc9b231ad1c14dcdcf22c588950d84",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3c945660172ecefc70dbfa18bb0cf4e5c2a244fccf9365ba064eb317d1f2029c",
+				"dweb:/ipfs/QmcY6Ch6mBQdqCcVKq8Pg14oyfkJXpUFTfPWdVkxsxvz5B"
+			]
+		}
+	},
+	"version": 1
+}
