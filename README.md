@@ -1,5 +1,6 @@
 # Tic-tac-toe
-TR
+                                                                                                                                                                              
+-------TR--------
                                                                                                                                                                           
 Tek adres ile 2 kişilik tik-tak-tao oyunu                                                                                                                                                                           
 Projeyi deploy ettikten sonra, startGame fonksiyonu ile board oluşturulur.                                                                                                                
@@ -9,6 +10,7 @@ Satır, sutun ve çarpraz olarak 3 şekilde kazanma şansınız var.
 Sıranızı şaşırmadan oynamaya dikkat edin :)                                                                                                                                   
 İyi eğlenceler...
 
+-------EN-------                                                                                                                                                                            
 Two-player Tic-tac-toe game with one address.                                                                                                                                           
 After deploying the project, the board is created with the startGame function.                                                                                                                        
 You can see the status of the board with the getBoard function.                                                                                                                                 
